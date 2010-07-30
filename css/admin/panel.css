@@ -1,0 +1,49 @@
+body {
+	
+}
+
+h1.header-title { width:auto; }
+
+#header {
+	width:620px;
+	margin:0 auto;
+	padding:10px;
+}
+
+#page {
+	-moz-border-radius:10px;
+	margin:0 auto;
+	overflow:visible !important;
+	position:relative;
+	width:620px;
+}
+
+#page .page-heading {
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	color:#333;
+	display:block;
+	font-size:18px;
+	padding:20px 40px;
+	text-shadow:0 1px 0 #FFFFFF;
+}
+
+#page fieldset {
+	border-color:#D5D9E0;
+	border-style:solid;
+	border-width:1px 0;
+	color:#646466;
+	margin:0 -30px 10px;
+	padding:1em 40px 1.6em !important;
+}
+
+#page fieldset legend {
+	background:transparent;
+	color:#000000;
+	display:block;
+	font-size:17px;
+	font-weight:bold;
+	margin-left:-5px;
+	padding:2px 4px;
+	text-shadow:none;
+}

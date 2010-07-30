@@ -1,0 +1,180 @@
+#header {
+	overflow:hidden;
+	padding:0;
+}
+
+#menu-meta,
+#footer {
+	padding:8px 20px;
+	font-size:11px;
+	overflow:hidden;
+}
+
+#menu-meta a,
+#footer a {
+	text-decoration: none;
+	border-bottom: 1px solid #CEDFF5;
+}
+
+#menu-meta .first,
+#footer .first {
+	float: left;
+}
+#menu-meta .last,
+#footer .last {
+	float: right;
+	text-align: right;
+	color: #CEDFF5;
+}
+
+#menu-main {
+	
+}
+
+h1.header-title {
+	color:#FFF;
+	font-size:20px;
+	text-shadow:0 1px 1px #000000;
+	float:left;
+	width:170px; 
+	overflow:hidden;
+	margin:0;
+	padding:0 0 0 20px;
+	height:30px;
+}
+
+#menu-main > ul {
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+#menu-main > ul li {
+	float:left;
+	font-size:13px;
+	list-style:none;
+	margin-left:5px;
+}
+
+#menu-main > ul li a,
+#menu-main > ul li strong {
+	background-color:#6F665A;
+	color:#DDD;
+	float:left;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #555;
+	border-bottom: 0;
+}
+
+#menu-main > ul li a:hover {
+	background-color:#7F7567;
+	color:#fff;
+}
+
+#menu-main > ul li.selected a,
+#menu-main > ul li.selected strong {
+	background: #cedff5;
+	text-shadow:none;
+	color: #333d55;
+}
+
+#menu-main > ul li span.count {
+	-moz-border-radius:2px;
+	border:1px solid #999;
+	color:#AAA;
+	display:inline-block;
+	font-size:11px;
+	line-height:0.9;
+	margin-left:4px;
+	padding:1px 3px 2px;
+	text-shadow:none;
+}
+
+#menu-main > ul li strong span.count {
+	color: #333d55;
+	border-color:#d3cb85;
+}
+
+#menu-main > ul li a:hover span.count {
+	background-color:#BBB;
+	border-color:#BBB;
+	color:#FFFFFF;
+}
+
+
+/* Sub Menu Styles */
+
+
+ul.menu-sub {
+	margin:-1px 0 0;
+	overflow:hidden;
+	padding:0 30px;
+}
+ul.menu-sub > li {
+	float:left;
+	list-style:none;
+	margin:0 6px 0 0;
+}
+
+ul.menu-sub > li.actions {
+	float:right;
+}
+
+
+ul.menu-sub > li > a, 
+ul.menu-sub > li > strong {
+	font-weight: bold;
+	border-style:solid;
+	border-width:0 1px 1px;
+	float:left;
+	padding:5px 9px;
+}
+
+ul.menu-sub > li > a {
+	border-color:#FFFFFF;
+	color:#555;
+	margin-top:1px;
+	text-decoration:underline;
+}
+ul.menu-sub > li > a:hover {
+	border-color:#CCC;
+	color:#333;
+}
+ul.menu-sub > li > strong {
+	background-color: #cedff5;
+	border-color:#aeb8cc;
+	color: #333d55;
+	padding:0;
+}
+
+ul.menu-sub > li > strong span a,
+ul.menu-sub > li > strong span strong { 
+	float:left;
+	border: 0;
+}
+ul.menu-sub > li > strong span strong {
+	padding: 5px 9px;
+}
+ul.menu-sub > li > strong span a {
+	font-weight: bold;
+	padding:5px 18px 5px 9px;
+	color: #333D55;
+	background:url(../../images/admin/breadcrumb-divider.png) no-repeat right;
+}
+
+
+/* End Sub Menu Styles */
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ */

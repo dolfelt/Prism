@@ -1,0 +1,209 @@
+
+form {
+	
+}
+
+/* FORM SECTION STYLES */
+
+form h2 {
+	border-bottom:1px solid #777;
+	margin:0 0 10px;
+	padding-top: 5px;
+	overflow: hidden;
+}
+
+form h2.title {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+form h2 b {
+	background: #AEB8CC;
+	float:left;
+	padding:2px 4px;
+	text-transform: uppercase;
+	color: #333D55;
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+
+/* END SECTIONS */
+
+
+/* FORM ELEMENT STYLES */
+
+div.form-element {
+	margin: 0 0 16px 0;
+	overflow: hidden;
+}
+
+label.form-label {
+	width: 120px;
+	padding: 2px 10px 0 0;
+	font-weight: bold;
+	float:left;
+	text-align: right;
+}
+
+input.form-text,
+input.form-password {
+	border:1px solid #AEB8CC;
+	padding:4px;
+	width: 320px;
+}
+select.form-select
+{
+	border:1px solid #AEB8CC;
+	padding: 4px;
+}
+
+textarea.form-textarea {
+	width:320px;
+	height:100px;
+	border:1px solid #AEB8CC;
+	padding:4px;
+	font-family:inherit;
+	font-size:inherit;
+}
+
+input.form-submit,
+input.form-button {
+	border: 1px solid #AEB8CC;
+	color: #333D55;
+	background: #CEDFF5;
+	padding:4px 10px;
+	-moz-border-radius: 10px;
+}
+
+input.form-submit {
+	font-weight: bold;
+}
+
+/* buttons */
+a.button {
+	background:transparent url(../../images/admin/buttons.png) no-repeat 0 0;
+	cursor:pointer;
+	color:#444455 !important;
+	float:left;
+	font-size:11px !important;
+	height:26px;
+	line-height:normal !important;
+	margin:5px 0;
+	overflow:hidden;
+	padding:0;
+	text-decoration:none !important;
+	text-shadow:1px 1px 0 #FFFFFF;
+}
+a.button:hover {
+	background-position:0 -26px;
+	color:#222233;
+}
+a.button:active {
+	background-position:0 -52px;
+	color:#000000;
+}
+a.button span {
+	background:transparent url(../../images/admin/buttons.png) no-repeat 100% -104px;
+	float:left;
+	font-size:100%;
+	height:26px;
+	margin-left:13px;
+	padding:6px 13px 6px 0;
+}
+a.button:hover span {
+	background-position:100% -130px;
+}
+a.button:active span {
+	background-position:100% -156px;
+}
+
+/* end buttons */
+
+
+
+/* END FORM ELEMENTS */
+
+/* CUSTOM FORM ELEMENTS */
+
+div.checklist {
+	float:left; 
+	overflow:auto; 
+	height: 100px;
+	border:1px solid #AEB8CC;
+	padding:4px;
+	width: 320px;
+}
+
+
+.form-element.large label.form-label,
+.form-element.large input.form-text,
+.form-element.large input.form-password
+{
+	font-size: 20px;
+}
+
+/* END CUSTOM ELEMENTS */
+
+
+
+
+/* FORM LAYOUT STYLES */
+form fieldset {
+	background-color:#FAFAFF;
+	border:1px solid #D5D9E0;
+	margin:0 0 1em;
+	overflow:hidden;
+	padding:6px;
+}
+
+fieldset legend {
+	background-color:#999999;
+	color:#FFFFFF;
+	font-size:1em;
+	font-weight:bold;
+	margin:0;
+	padding:0.25em 0.65em;
+	position:relative;
+	text-shadow:1px 1px 0 #666666;
+}
+
+fieldset.integral {
+	border-color:#D5D9E0;
+	border-style:solid;
+	border-width:1px 0;
+	color:#646466;
+	margin:0 0 10px;
+	padding:1em 40px 1.6em;
+}
+
+fieldset.integral legend {
+	background:transparent;
+	color:#000000;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	margin-left:10px;
+	padding:2px 4px;
+	text-shadow:none;
+}
+/* END FORM LAYOUT */
+
+/* LIST LAYOUT */
+
+ul.form-list {
+	list-style:none;
+}
+ul.form-list > li {
+	padding: 4px;
+	background-color: #ededed;
+	border: 1px solid #cccccc;
+	margin-top: -1px;
+	overflow: hidden;
+}
+
+
+
+
+/* END LIST */
+
+

@@ -1,0 +1,184 @@
+body { 
+	margin:0px;
+	background: #534738;
+	font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height:1.5;
+}
+
+
+/* HTML ELEMENTS */
+
+a {
+	color: inherit;
+}
+
+h2 {
+	
+}
+
+.sidebar h2 {
+	background-color:#CEDFF5;
+	border-bottom:1px solid #AEB8CC;
+	color:#333D55;
+	font-size:1em;
+	font-weight:bold;
+	margin:0 0 1em;
+	padding:0.5em;
+	text-shadow:1px 1px 0 #FFFFFF;
+}
+
+/* END ELEMENTS */
+
+
+#container {
+	max-width:1280px;
+	min-width:860px;
+	padding:0 15px;
+	margin:0 auto;
+}
+
+#page { padding: 0; background:#fff; }
+
+#page .page-heading {
+	padding:12px 30px;
+	font-size:18px;
+	clear:both;
+	background:#cedff5;
+	color:#333d55;
+	border-bottom:1px solid #aeb8cc;
+	font-weight:bold;
+	margin:0;
+}
+
+/* CONTENT & SIDEBAR */
+#content, #notes { padding:15px 30px 30px; }
+
+
+div.content-wide {
+	width: 100%;
+}
+
+div.content-thin {
+	width: 70%;
+	float: left;
+}
+
+div.sidebar {
+	width: 30%;
+	float: right;
+}
+div.sidebar div.wrapper {
+	margin-left: 30px;
+}
+
+/* END CONT. & SB */
+
+#breadcrumbs { 
+	background:#F6F6F6; 
+	border:1px solid #EDEDED;
+	margin:0 20px;
+	padding:1px;
+	overflow:hidden;
+}
+#breadcrumbs span a,
+#breadcrumbs span strong { 
+	float:left;
+	padding:4px 18px 4px 10px;
+}
+#breadcrumbs span a {
+	font-weight: bold;
+	color: #333D55;
+	background:url(../../images/admin/breadcrumb-divider.png) no-repeat right;
+}
+
+#notes-box { display:none; }
+
+
+
+
+
+
+/* Table Styles */
+
+table.data-table {
+	width:100%;
+	table-layout: fixed;
+}
+
+table.data-table a {
+	color: #333D55;
+}
+
+table.data-table thead th {
+	border-bottom:2px solid #AEB8CC;
+	color:#CCCCCC;
+	font-size:0.9em;
+	padding:0.5em;
+}
+
+table.data-table th, 
+table.data-table td {
+	border-bottom:1px solid #E9E9E9;
+	font-weight:normal;
+	padding:0 5px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+table.data-table td {
+	padding: 8px 4px;
+}
+
+table.data-table td.hover {
+	background-color:#F4F4F4;
+	cursor:pointer;
+}
+
+/* End Tables */
+
+
+
+/* Message Styles */
+
+.message-error,
+.message-info {
+	padding: 10px 40px;
+	margin:16px 0 0;
+	border-width: 1px 0;
+	border-style: solid;
+}
+
+.message-error {
+	background-color:#FFEBE8;
+	border-color:#CC0000;
+}
+
+.message-info {
+	background-color:#FFFFE0;
+	border-color:#E6DB55;
+}
+
+
+
+/* End Messages */
+
+
+/* List Styles */
+
+ul.list {
+	list-style:none;
+}
+ul.list > li {
+	padding: 4px;
+	border-bottom: 1px solid #E9E9E9;
+}
+
+/* End Lists */
+
+
+
+.clear { clear:both; }
+
+
+
